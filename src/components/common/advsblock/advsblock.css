@@ -1,0 +1,14 @@
+.adv{
+    width: 30vw;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #111111;
+    padding: 20px;
+    margin: 20px;
+}
+
+.advheading{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
