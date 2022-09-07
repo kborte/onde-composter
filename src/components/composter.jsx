@@ -18,7 +18,7 @@ function Composter(){
                 </h6>
             </div>
 
-            <img src = {composter} alt = "composter" style={{height: "70vh", borderRadius: "15px", boxShadow: "4px 4px 8px rgba(200, 200, 200, 50%)"}}></img>
+            <img id = "composter" src = {composter} alt = "composter" style={{height: "70vh", borderRadius: "15px", boxShadow: "4px 4px 8px rgba(200, 200, 200, 50%)"}}></img>
         </div>
     )
 }

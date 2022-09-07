@@ -164,3 +164,7 @@ button.simple:hover{
     filter: drop-shadow(5px 3px 0px #333333);
     border-radius: 4px;
 }
+
+@media (max-width: 600px) {
+    
+}

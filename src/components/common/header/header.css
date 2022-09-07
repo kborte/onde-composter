@@ -13,7 +13,7 @@
 
 header{
     align-self: center;
-    width: calc(100% - 40px);
+    width: calc(100vw - 40px);
     height: 40px;
     background-color: whitesmoke;
     box-shadow: 4px 4px 8px rgba(200, 200, 200, 50%);
@@ -22,4 +22,15 @@ header{
     align-items: center;
     justify-content: space-between;
     border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+    header{
+        justify-content: flex-start;
+        width: 100vw;
+    }
+
+    .headerinfo{
+        width: auto;
+    }
 }
